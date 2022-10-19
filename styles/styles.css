@@ -2,9 +2,17 @@
 .Imagen1{
     width: 20%;
     height: 20%;
-    margin-left: 560px;
+    /* margin-left: 560px; */
     margin-top: 30px;
     /* align-items: center; */
+
+    margin-left: 125px;
+    border-radius: 50%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -20,4 +28,114 @@ body{
 .AlfPhone{
     width: 15%;
     height: 15%;
+}
+
+header{
+    background-color: rgb(10, 214, 204);
+    width: 100%;
+    text-align: center;
+}
+
+nav{
+    color: #FFFFFF;
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.li_uno{
+    margin-left: 30px;
+    color: chartreuse;
+}
+
+li{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+h1{
+    margin: 0 0 0 15px;
+    color: red;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 80px;
+    text-shadow: #FFFFFF -5px -5px 5px;
+}
+
+main{
+    display: inline;
+}
+
+.principal{
+    /*height: 800px;
+    background-image: url(imagenes/marina.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+    height: 600px;
+    width: 60%;
+    margin-left: 200px;
+    padding: 25px;
+    text-align: justify;
+    color: #1D1CE5; 
+}
+
+p{
+    text-align: inherit;
+    color: inherit;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.uno{
+    width: 300px;
+    
+    background-color: brown;
+    
+    margin-left: 115px;
+}
+
+.dos{
+    width: 300px;
+    
+    background-color:#45B39D;
+    
+    border: 10px none #FFFFFF; 
+    margin-left: 85px;
+}
+
+.tres{
+    width: 300px;
+    
+    background-color:hsl(222, 44%, 49%);
+    
+    border: 10px none #FFFFFF; 
+    margin-left: 85px;
+}
+
+footer{
+    height: 100px;
+    margin-top: 30px;
+    padding: 25px;
+    display: flex;
+    background-color: #1D1CE5; 
+}
+
+#logo{
+    width: 80px;
+    height: 40px;
+    margin-left: 500px;
+}
+
+.final{
+    margin-left: 25px;
 }
