@@ -6,3 +6,18 @@
     margin-top: 30px;
     /* align-items: center; */
 }
+
+body{
+    background-image: url("https://data2.1freewallpapers.com/download/abstraction-triangles-colorful-1280x800.jpg");
+    background-size: 70%;
+}
+
+.imagen_alf{
+    width: 10%;
+    height: 10%;
+}
+
+.AlfPhone{
+    width: 15%;
+    height: 15%;
+}
